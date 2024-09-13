@@ -50,7 +50,7 @@ recall = recall_score(y_test, y_pred)
 print("Precision Score:", precision)
 print("Recall score:",recall)
 
-#making predictions
+#Making predictions
 mail=input("Enter the contents of the E-mail:")
 mail=[mail]
 con_input=feat_ext.transform(mail)
